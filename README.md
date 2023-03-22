@@ -39,11 +39,11 @@ Enable the plugin in `/opt/netbox/netbox/netbox/configuration.py`,
 
 ```python
 PLUGINS = [
-    'Application List'
+    'netbox_application_list_plugin'
 ]
 
 PLUGINS_CONFIG = {
-    "Application List": {},
+    "netbox_application_list_plugin": {},
 }
 ```
 

@@ -10,4 +10,4 @@ class ApplicationListForm(NetBoxModelForm):
 
     class Meta:
         model = ApplicationList
-        fields = ('name', 'tags')
+        fields = ('name', 'version', 'is_licensed', 'license_key', 'tags')

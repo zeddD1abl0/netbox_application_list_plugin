@@ -14,7 +14,7 @@ plugin_buttons = [
 menu_items = (
     PluginMenuItem(
         link='plugins:netbox_application_list_plugin:applicationlist_list',
-        link_text='Application List',
+        link_text='Application Lists',
         buttons=plugin_buttons
     ),
 )
